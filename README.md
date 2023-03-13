@@ -9,7 +9,7 @@ format:转换格式 默认值 HH:mm:ss (DD HH:mm:ss , HH:mm:ss, mm:ss, ss)
 若开始时间大于结束时间则返回 false
 
 ```
-import { countDown } from  countDown-lz
+import countDown  from  countDown-lz
 
 countDown(endDate ,startDate , format)
 
