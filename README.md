@@ -1,6 +1,12 @@
 # 返回距离指定时间还有多少时间（DD HH:mm:ss）
 
-endDate:结束日期
+安装
+
+```
+npm install countDown-lz
+```
+
+endDate:结束日期 （必填）
 
 startDate:开始日期 默认值现在
 
@@ -9,7 +15,7 @@ format:转换格式 默认值 HH:mm:ss (DD HH:mm:ss , HH:mm:ss, mm:ss, ss)
 若开始时间大于结束时间则返回 false
 
 ```
-import countDown  from  countDown-lz
+import countDown  from  'countDown-lz'
 
 countDown(endDate ,startDate , format)
 
